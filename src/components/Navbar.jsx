@@ -1,3 +1,4 @@
+import { Button } from 'antd'
 import React from 'react'
 
 function Navbar() {
@@ -16,7 +17,7 @@ function Navbar() {
                     <li>Contact</li>
                 </ul>
                 <div className='w-[50%] h-full flex justify-center items-center'>
-                    box
+                    <Button className='px-5! rounded-full!'>Request member</Button>
                 </div>
             </div>
         </div>
